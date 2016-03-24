@@ -1,3 +1,9 @@
+
+
+$(function() {
+
+
+
 // variable
 var name = "Who They Are";
 
@@ -33,4 +39,22 @@ $(".one").click(function() {
 	var randNumber = Math.random() * 600;
 
 	$(this).css("top", randNumber + "px");
+});
+
+$(".two").click(function() {
+	$(this).addClass("clicked");
+	var randNumber = Math.random() * 600;
+
+	$(this).css("top", randNumber + "px");
+});
+
+$(".three").click(function() {
+	$(this).addClass("clicked");
+	var randNumber = Math.random() * 600;
+
+	$(this).css("top", randNumber + "px");
+});
+
+
+
 });
