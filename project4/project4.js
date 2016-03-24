@@ -1,13 +1,10 @@
 // variable
-var name = "Wooksang";
-
-
+var name = "Who They Are";
 
 // functions
 function sayHello() {
-	var greeting = "Hellow " + name;
-	console.log(greeting);
-	// alert(greeting);
+	var greeting = "Click the Red Circles If You Want to Know " + name;
+	alert(greeting);
 
 } 
 
@@ -30,10 +27,10 @@ sayHello();
 
 //저 괄호안에 있는 것은 CSS다. 그 다음에 닷.-->access를 가능하게 해줌 to .html
 
-$("div").click(function() {
+
+$(".one").click(function() {
 	$(this).addClass("clicked");
-	var randNumber = Math.random() * 900;
+	var randNumber = Math.random() * 600;
 
-	$(this).css("left", randNumber + "px");
-
+	$(this).css("top", randNumber + "px");
 });
