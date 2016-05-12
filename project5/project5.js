@@ -14,19 +14,11 @@ function sayHello() {
 
 } 
 
-
 // calling a function 이 아래것은 펑션 안에 있지 않기 때문에 work 하지 않는다.
 
 //괄호안의 파란 펑션은 허버되었을 때 실행되게 해줌)
 
 sayHello();
-
-	$("1").hover(function() { 
-		$(this).html("Hovered");
-		$(this).addClass("hovered")
-	}, function() {
-		$(this).html("Unhovered");
-		$(this).removeClass("hovered");
 	
 });
 	//$("h1").html(greeting)
@@ -54,7 +46,6 @@ $(".three").click(function() {
 
 	$(this).css("top", randNumber + "px");
 });
-
 
 
 });
